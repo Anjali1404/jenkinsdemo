@@ -10,5 +10,9 @@
         <welcome-file>index.jsp</welcome-file>
      
     </welcome-file-list>
+  <servlet-mapping>
+    <servlet-name>offers</servlet-name>
+    <url-pattern>/Dispatcher/*</url-pattern>
+    </servlet-mapping>
 
 </web-app>
